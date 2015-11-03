@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35A6E939-7C56-4FBD-B06C-6454ADB05E2C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Repo Pattern ReadMe.txt = ..\Repo Pattern ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocoDemo.Web", "PocoDemo.Web\PocoDemo.Web.csproj", "{C5FA30B2-A872-4FE0-B2F9-5B12851E492C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocoDemo.Data", "PocoDemo.Data\PocoDemo.Data.csproj", "{873A80E0-1E14-4C10-AAE4-DC1125642F07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocoDemo.Entities", "PocoDemo.Entities\PocoDemo.Entities.csproj", "{59D610BE-74CD-4AB5-96A2-794FC3112AF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocoDemo.Client", "PocoDemo.Client\PocoDemo.Client.csproj", "{41099850-B08B-488D-BB8A-922F5F612EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocoDemo.Patterns", "PocoDemo.Patterns\PocoDemo.Patterns.csproj", "{DAE6D2A9-4C7B-4713-B7BB-5197A17C20A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocoDemo.Patterns.EF", "PocoDemo.Patterns.EF\PocoDemo.Patterns.EF.csproj", "{746AA1CD-BE32-494F-AAAD-FF7817C84EA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5FA30B2-A872-4FE0-B2F9-5B12851E492C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5FA30B2-A872-4FE0-B2F9-5B12851E492C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5FA30B2-A872-4FE0-B2F9-5B12851E492C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5FA30B2-A872-4FE0-B2F9-5B12851E492C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873A80E0-1E14-4C10-AAE4-DC1125642F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873A80E0-1E14-4C10-AAE4-DC1125642F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873A80E0-1E14-4C10-AAE4-DC1125642F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873A80E0-1E14-4C10-AAE4-DC1125642F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D610BE-74CD-4AB5-96A2-794FC3112AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D610BE-74CD-4AB5-96A2-794FC3112AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D610BE-74CD-4AB5-96A2-794FC3112AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D610BE-74CD-4AB5-96A2-794FC3112AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41099850-B08B-488D-BB8A-922F5F612EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41099850-B08B-488D-BB8A-922F5F612EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41099850-B08B-488D-BB8A-922F5F612EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41099850-B08B-488D-BB8A-922F5F612EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE6D2A9-4C7B-4713-B7BB-5197A17C20A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE6D2A9-4C7B-4713-B7BB-5197A17C20A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE6D2A9-4C7B-4713-B7BB-5197A17C20A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE6D2A9-4C7B-4713-B7BB-5197A17C20A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746AA1CD-BE32-494F-AAAD-FF7817C84EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746AA1CD-BE32-494F-AAAD-FF7817C84EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746AA1CD-BE32-494F-AAAD-FF7817C84EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746AA1CD-BE32-494F-AAAD-FF7817C84EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

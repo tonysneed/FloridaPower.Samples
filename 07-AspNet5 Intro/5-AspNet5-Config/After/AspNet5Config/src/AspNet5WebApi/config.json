@@ -1,0 +1,7 @@
+﻿{
+  "Greeting": {
+    "DefaultGreeting": "Hello",
+    "WesternGreeting": "Howdy",
+    "EasternGreeting" : "Yo"
+  }
+}

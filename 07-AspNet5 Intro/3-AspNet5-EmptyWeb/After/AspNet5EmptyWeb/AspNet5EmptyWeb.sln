@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6387B70D-76A7-47B6-9576-B87A06CBEF89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CCBF1A98-86BD-4911-BE35-D3F192650E68}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		..\..\ReadMe.txt = ..\..\ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet5EmptyWeb", "src\AspNet5EmptyWeb\AspNet5EmptyWeb.xproj", "{2DA1A672-BA88-4CB9-9BEB-797736C6D089}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DA1A672-BA88-4CB9-9BEB-797736C6D089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA1A672-BA88-4CB9-9BEB-797736C6D089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA1A672-BA88-4CB9-9BEB-797736C6D089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA1A672-BA88-4CB9-9BEB-797736C6D089}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DA1A672-BA88-4CB9-9BEB-797736C6D089} = {6387B70D-76A7-47B6-9576-B87A06CBEF89}
+	EndGlobalSection
+EndGlobal

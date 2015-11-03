@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8D2B647-184C-4E36-A98E-5CFD5339CB60}"
+	ProjectSection(SolutionItems) = preProject
+		..\ReadMe.txt = ..\ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinWebHosting", "OwinWebHosting\OwinWebHosting.csproj", "{CEE53951-6C48-48A8-9D66-3D890E487762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingHttpClient", "UsingHttpClient\UsingHttpClient.csproj", "{B9481C6E-32E3-41D8-BF5B-83C6DC02B8B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE53951-6C48-48A8-9D66-3D890E487762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE53951-6C48-48A8-9D66-3D890E487762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE53951-6C48-48A8-9D66-3D890E487762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE53951-6C48-48A8-9D66-3D890E487762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9481C6E-32E3-41D8-BF5B-83C6DC02B8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9481C6E-32E3-41D8-BF5B-83C6DC02B8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9481C6E-32E3-41D8-BF5B-83C6DC02B8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9481C6E-32E3-41D8-BF5B-83C6DC02B8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
