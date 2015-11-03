@@ -1,0 +1,60 @@
+WCF / ASMX - SOAP Services
+
+- Unification of networking API's
+- Support for SOAP and WS-* Soap specs
+- SOA - Service oriented architecture
+- Transport independence
+
+Problems with WCF & SOAP:
+- SOAP never really caught on
+- SOAP not supported by all clients: browsers, mobile
+- XML is verbose, performance issues
+- WCF was over-architected: you have to be an expert to do it properly
+- WCF is not a 'modern' platform: lack of support for dependency injection, testability
+
+Bottom line: DO NOT USE WCF for greenfield app dev!
+
+New Paradigm: REST-ful services using ASP.NET Web API
+- Leveraging HTTP for application semantics
+- More modern framework: better support for dependency injection
+- Microsoft is investing heavily in the web stack
+
+REST is a continuum
+- lowest level: using POX or JSON
+- resource-centric vs operation centric API
+- HATEAS: hypermedia driving app state via embedded links in responses
+
+Research:
+- WWF and ASP.NET 5
+
+Take away #1:
+DO NOT USE the default Visual Studio templates for creating Web API services!!
+- Uses SystemWeb.dll -> 20 MB footprint, increased per request overhead
+
+Take away #2:
+Also: DO NOT USE Web API Self Hosting
+- Depends on WCF, which is deprecated
+
+Take Away #3:
+From now on, use OWIN for hosting Web API services!
+- Completely ecoupled from the underlying host
+- Self-hosting no dependency on WCF
+- Web hosting can be decoupled from SystemWeb.dll (Project Helios)
+- App model is used by ASP.NET 5 (vNext: RC in Nov, RTM in 2016 Q1)
+
+Vishal: Owin Hosting options
+- Owin Web Hosting: Use IIS as your host
+  > Today: This DOES has a dependency on SystemWeb.dll
+  > Tomorrow: It will NOT have a dependency on SystemWeb.dll (ASP.NET 5)
+- Owin Self Hosting: Use Windows Service as your host
+  > Need control over the lifetime of the process (for ex, cache control, etc)
+- OwinHost Hosting: Use OwinHost.exe process for your host
+  > Friendly to cloud-based deployments (for ex, using Docker containers)
+
+Vishal: Serialization question
+- Json serialization and size limits
+
+TODO: Web API Security (3rd day if time permits)
+- Add to course manual and samples
+
+

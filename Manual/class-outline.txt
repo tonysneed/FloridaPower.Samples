@@ -1,0 +1,35 @@
+Florida Power Course from Wintellect
+
+Day 1:
+
+1. Web API Hosting, Client, Async
+
+2. Serialization and Model Binding
+
+3. Validation and Testing
+
+
+Day 2:
+
+4. Entity Framework N-Tier App Development
+
+5. Repository and Unit of Work Patterns
+
+6. Dependency Injection
+
+Day 3:
+
+If time and interest:
+- Look Ahead and what's coming for Web API in ASP.NET 5 and MVC 6
+
+
+What kind of web services are you developing?
+
+- RESTful services using Web API
+- Consumed by ajax / angular clients
+- WCF services returning JSON, CRUD w SharePoint lists
+- Need to aggregtae data from various sources
+  > Design patterns and best practices
+  > For example: data from SP list and SQL Server
+  > SP Lists: declarative workflows -> provided via RESTful services
+  
