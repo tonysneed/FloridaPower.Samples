@@ -26,14 +26,14 @@ namespace ModelBinding.Web.Controllers
             return Persons[1];
         }
 
-        // POST: api/Person
-        public void Post(int id, Person value)
+        // POST: api/Person/5?Name=Peter&Age=20
+        public void Post(int id, [FromUri]Person value)
         {
             Persons.Add(id, value);
         }
 
-        // PUT: api/Person/5
-        public void Put(int id, Person value)
+        // PUT: api/Person/5??Name=Peter&Age=20
+        public void Put(int id, [FromUri]Person value)
         {
             Persons[id] = value;
         }
