@@ -13,11 +13,15 @@ namespace Serialization.Web.Controllers
             new Person { Name = "Mary", Age = 40 },
         };
 
-        // GET: api/Person
-        public IEnumerable<Person> Get()
+        public PersonsController()
         {
             //Persons[0].Brother = Persons[1];
             //Persons[1].Brother = Persons[0];
+        }
+
+        // GET: api/Person
+        public IEnumerable<Person> Get()
+        {
             return Persons;
         }
 
