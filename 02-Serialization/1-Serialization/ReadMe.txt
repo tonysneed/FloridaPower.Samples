@@ -9,6 +9,7 @@ Part A: Configure Json.NET Serializer
    - Use Fiddler or another client to submit an HTTP request
      with an Accept header of application/json
      > Uri: http://localhost:57986/api/Persons/1
+	 > Note the port must match that of the web project
    - Note that Json property names are title cased
 
 2. Add code to the Configuration method of the Startup class to access Json formatter.
