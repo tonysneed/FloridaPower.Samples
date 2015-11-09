@@ -6,10 +6,10 @@ Day 1:
 
 2. Serialization and Model Binding
 
-3. Validation and Testing
-
 
 Day 2:
+
+3. Validation and Testing
 
 4. Entity Framework N-Tier App Development
 
@@ -17,10 +17,22 @@ Day 2:
 
 6. Dependency Injection
 
+
 Day 3:
 
-If time and interest:
-- Look Ahead and what's coming for Web API in ASP.NET 5 and MVC 6
+7. Web API Security
+
+8. Look Ahead and what's coming for Web API in ASP.NET 5 and MVC 6
+
+
+
+
+
+
+
+
+
+
 
 
 What kind of web services are you developing?
