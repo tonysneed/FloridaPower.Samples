@@ -20,9 +20,24 @@ Day 2:
 
 Day 3:
 
+Discussion: Web services workflow & orchestration
+Windows Platform:
+- Roll Your Own
+- Windows Workflow Foundation (WF):
+  > Has good WCF integration, but no tooling for Web API integration
+- BizTalk
+
+Cloud / Docker: Linux or Windows Server 2016
+- Microservices
+- Docker: Machine, Swarm and Compose
+
 7. Web API Security
 
 8. Look Ahead and what's coming for Web API in ASP.NET 5 and MVC 6
+   Nov: Release Candidate 1 (prod-ready, go-live license)
+   Feb / Mar: RTM
+
+
 
 
 
